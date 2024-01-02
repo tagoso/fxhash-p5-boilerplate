@@ -1,2 +1,6 @@
 # fxhash-p5-boilerplate
-Thanks to somaticbits and  Wanda Oliver
+
+somaticbits
+https://github.com/somaticbits/fxhash-p5-template
+Wanda Oliver
+https://www.fxhash.xyz/article/an-fx(hash)-template
