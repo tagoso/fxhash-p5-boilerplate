@@ -172,6 +172,6 @@ function keyPressed()
    {
     setupGrid(5);
     resizeCanvas(g,g);
-    saveCanvas('wandaOliver_' + seed, 'png');
+    saveCanvas('author_name_' + seed, 'png');
    }
 }
