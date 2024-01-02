@@ -22,7 +22,6 @@ I would like to extend my sincere gratitude to the following individuals for the
    - **fxhash.js** - This is `@fxhash/project-sdk`, containing helper functions.
    - **index.js** - Contains the artist's code powering the generative artwork.
    - **LICENSE** - Declares usage rights of your code.
-   - **READ.ME** - Optional. You can delete this.
 
 3. **Cloning this fxhash p5 Boilerplate**
    - Run the command:
