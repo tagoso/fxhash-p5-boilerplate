@@ -27,7 +27,7 @@ function preload()
 {
   // +++++++++++++++++++ DO NOT CHANGE +++++++++++++++++
   // SET SEED TO CONTROL PRNG FUNCTION REQUIRED BY fx(hash)
-  seed = int(fxrand() * 999999);
+  seed = int($fx.rand()  * 999999);
   // +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
