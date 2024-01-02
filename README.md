@@ -29,7 +29,6 @@ I would like to extend my sincere gratitude to the following individuals for the
      git clone https://github.com/tagoso/fxhash-p5-boilerplate.git
      ```
    - This includes:
-     - `/assets` - For images, sound files, etc.
      - `index.html` - HTML entry point.
      - `sketch.js` - For p5.js projects.
      - `styles.css` - For styling purposes.
@@ -42,7 +41,7 @@ I would like to extend my sincere gratitude to the following individuals for the
 
 The project directory should look like this (alphabetically sorted):
 ```
-├─ assets/
+├─ /assets (<= optional)
 ├─ fxhash.js
 ├─ index.html
 ├─ index.js
