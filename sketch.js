@@ -76,11 +76,11 @@ function draw()
   // the grid system.  The variables x, y, & r are defined relative to the grid.
   // This allows them to redraw properly as the grid is resized.  See 
   // the setUpGrid function below for definitions of the variables g and q.
-  stroke(10, 100, 0, 100);
-  let x = g/2;
-  let y = g/2;
-  let r = 10*q;
-  ellipse(x, y, r);
+  // stroke(10, 100, 0, 100);
+  // let x = g/2;
+  // let y = g/2;
+  // let r = 10*q;
+  // ellipse(x, y, r);
 
  
   
@@ -155,10 +155,10 @@ function setupGrid(m)
 // will never return a 10.  I find this unintuitive, so when I want a random integer
 // that spans the full range of input values, I use the following.  This code was given to me 
 // and I pass it along to you as extremely useful.
-function randomInt(min, max) 
-{
-  return floor(random() * (max - min + 1)) + min;
-}
+// function randomInt(min, max) 
+// {
+//   return floor(random() * (max - min + 1)) + min;
+// }
 
 
 // one of the things I look for as a collector is the ability to save a high resolution
@@ -170,8 +170,8 @@ function keyPressed()
 {  
   if (key == 's' || key == 'S')
    {
-    setupGrid(5);
-    resizeCanvas(g,g);
+    // setupGrid(5);
+    // resizeCanvas(g,g);
     saveCanvas('author_name_' + seed, 'png');
    }
 }
